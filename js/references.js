@@ -16,7 +16,7 @@ $(document).ready(function() {
             name: "Heinz Heiniger",
             firma: "Muster AG"
         }, {
-            bericht: "Spannend war, dass wir beim Dessin mitbestimmen konnten. Ausserdem legten wir Wert auf einen Schweizer Lieferanten. Das garantiert uns auch die langjährige Nachlieferung",
+            bericht: "Spannend war, dass wir beim Design mitbestimmen konnten. Ausserdem legten wir Wert auf einen Schweizer Lieferanten. Das garantiert uns auch die langjährige Nachlieferung",
             name: "Lukas Limacher",
             firma: "Leinziker GmbH"
         }
@@ -64,7 +64,7 @@ $(document).ready(function() {
             counter = 0;
         }
         
-        $(".carousel-point").css("backgroundImage", "url('../media/icons/carousel_unchecked.png')");
+        $(".carousel-point").css("backgroundImage", "url('media/icons/carousel_unchecked.png')");
         placeholderReference.css("opacity", "1");
         placeholderName.css("opacity", "1");
         placeholderFirma.css("opacity", "1");
@@ -86,7 +86,7 @@ $(document).ready(function() {
 
 
 
-        $("#carousel-point-" + counter).css("backgroundImage", "url('../media/icons/carousel_checked.png')");
+        $("#carousel-point-" + counter).css("backgroundImage", "url('media/icons/carousel_checked.png')");
 
 
 

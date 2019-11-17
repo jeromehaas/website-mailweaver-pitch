@@ -780,11 +780,11 @@ FOOTER
 DEMOANFRAGE PAGE
 ****************************************************************/
 
-#demoanfrage{
+#demorequest{
 
 }
 
-#demoanfrage-wrapper {
+#demorequest-wrapper {
     position: fixed;
     top: 0px;
     right: 0px;
@@ -794,7 +794,7 @@ DEMOANFRAGE PAGE
     z-index: 200;
 }
 
-#demoanfrage-wrapper .two-column-holder{
+#demorequest-wrapper .two-column-holder{
     width: 80vw;
     height: 80vh;
     max-width: 1440px;
@@ -810,11 +810,11 @@ DEMOANFRAGE PAGE
 
 
 
-#demoanfrage-wrapper .text-holder {
+#demorequest-wrapper .text-holder {
     flex-basis: 50%;
 }
 
-#demoanfrage-wrapper .text-holder .sur-title {
+#demorequest-wrapper .text-holder .sur-title {
     font-size: 12px;
     font-weight: bold;
     letter-spacing: 2px;
@@ -824,7 +824,7 @@ DEMOANFRAGE PAGE
     margin-top: 120px;
 }
 
-#demoanfrage-wrapper .text-holder .title {
+#demorequest-wrapper .text-holder .title {
     font-size: 55px;
     font-weight: bold;
     letter-spacing: -1.22px;
@@ -834,7 +834,7 @@ DEMOANFRAGE PAGE
     margin-bottom: 20px;
 }
 
-#demoanfrage-wrapper .text-holder .subtitle {
+#demorequest-wrapper .text-holder .subtitle {
 
     font-size: 55px;
     font-weight: 300;
@@ -848,25 +848,25 @@ DEMOANFRAGE PAGE
 /*----------------------------------------------------------*/
 /*----------------------------------------------------------*/
 
-#demoanfrage-wrapper .input-range-container{
+#demorequest-wrapper .input-range-container{
     width: auto;
     height: auto;
     position: relative;
     margin-bottom: 162px;
 }
 
-#demoanfrage-wrapper .input-range-container input[type="range"] {
+#demorequest-wrapper .input-range-container input[type="range"] {
     -webkit-appearance: none;
     width: 100%;
     background: transparent;
 }
 
-#demoanfrage-wrapper .input-range-container input[type="range"]:focus {
+#demorequest-wrapper .input-range-container input[type="range"]:focus {
     outline: none !important;
 }
 
 
-#demoanfrage-wrapper .input-range-container input[type="range"]::-webkit-slider-thumb {
+#demorequest-wrapper .input-range-container input[type="range"]::-webkit-slider-thumb {
     -webkit-appearance: none;
     height: 40px;
     width: 40px;
@@ -879,7 +879,7 @@ DEMOANFRAGE PAGE
 
 
 
-#demoanfrage-wrapper .input-range-container input[type="range"]::-webkit-slider-runnable-track {
+#demorequest-wrapper .input-range-container input[type="range"]::-webkit-slider-runnable-track {
     width: 100%;
     height: 14px;
     cursor: pointer;
@@ -889,7 +889,7 @@ DEMOANFRAGE PAGE
 
 
 
-#demoanfrage-wrapper .input-range-container input[type="range"]::-moz-range-thumb {
+#demorequest-wrapper .input-range-container input[type="range"]::-moz-range-thumb {
     height: 40px;
     width: 40px;
     border-radius: 50%;
@@ -899,7 +899,7 @@ DEMOANFRAGE PAGE
     box-shadow: 0px 0px 2px #000000;
 }
 
-#demoanfrage-wrapper .input-range-container input[type="range"]::-moz-range-track {
+#demorequest-wrapper .input-range-container input[type="range"]::-moz-range-track {
     width: 100%;
     height: 14px;
     cursor: pointer;
@@ -908,11 +908,11 @@ DEMOANFRAGE PAGE
     outline: none;
 }
 
-#demoanfrage-wrapper .input-range-container input[type=range]::-moz-focus-outer {
+#demorequest-wrapper .input-range-container input[type=range]::-moz-focus-outer {
     border: 0;
 }
 
-#demoanfrage-wrapper .input-range-container input[type="range"]::-ms-thumb {
+#demorequest-wrapper .input-range-container input[type="range"]::-ms-thumb {
     height: 40px;
     width: 40px;
     border-radius: 50%;
@@ -922,7 +922,7 @@ DEMOANFRAGE PAGE
     box-shadow: 0px 0px 2px #000000;
 }
 
-#demoanfrage-wrapper .input-range-container input[type="range"]::-ms-track {
+#demorequest-wrapper .input-range-container input[type="range"]::-ms-track {
     width: 100%;
     cursor: pointer;
     background: transparent;
@@ -930,25 +930,25 @@ DEMOANFRAGE PAGE
     color: transparent;
 }
 
-#demoanfrage-wrapper .input-range-container input[type="range"]::-ms-fill-lower {
+#demorequest-wrapper .input-range-container input[type="range"]::-ms-fill-lower {
     background: #ffca0d;
     border-radius: 7px;
 }
 
-#demoanfrage-wrapper .input-range-container input[type="range"]:focus::-ms-fill-lower {
+#demorequest-wrapper .input-range-container input[type="range"]:focus::-ms-fill-lower {
     background: #ffca0d;
 }
 
-#demoanfrage-wrapper .input-range-container input[type="range"]::-ms-fill-upper {
+#demorequest-wrapper .input-range-container input[type="range"]::-ms-fill-upper {
     background: #ffca0d;
     border-radius: 7px;
 }
 
-#demoanfrage-wrapper .input-range-container input[type="range"]:focus::-ms-fill-upper {
+#demorequest-wrapper .input-range-container input[type="range"]:focus::-ms-fill-upper {
     background: #ffca0d;
 }
 
-#demoanfrage-wrapper .input-range-container output {
+#demorequest-wrapper .input-range-container output {
     position: absolute;
     background-color: #ffffff;
     width: 40px;
@@ -966,7 +966,7 @@ DEMOANFRAGE PAGE
 }
 
 
-#demoanfrage-wrapper .input-range-container::before {
+#demorequest-wrapper .input-range-container::before {
     content: "0";
     position: absolute;
     left: 0px;
@@ -975,7 +975,7 @@ DEMOANFRAGE PAGE
     color: #242635;
 }
 
-#demoanfrage-wrapper .input-range-container::after {
+#demorequest-wrapper .input-range-container::after {
     content: "100'000";
     position: absolute;
     right: 0px;
@@ -985,11 +985,11 @@ DEMOANFRAGE PAGE
 }
 
 
-#demoanfrage-wrapper .input-email-container{
+#demorequest-wrapper .input-email-container{
     margin-bottom: 62px;
 }
 
-#demoanfrage-wrapper .input-email-container .email-label {
+#demorequest-wrapper .input-email-container .email-label {
     display: block;
     font-size: 12px;
     letter-spacing: 2px;
@@ -997,7 +997,7 @@ DEMOANFRAGE PAGE
     margin-bottom: 8px;
 }
 
-#demoanfrage-wrapper .input-email-container .email-input {
+#demorequest-wrapper .input-email-container .email-input {
     font-size: 12px;
     letter-spacing: 1px;
     color: #9b9b9b;
@@ -1011,7 +1011,7 @@ DEMOANFRAGE PAGE
 
 
 
-#demoanfrage-wrapper .call-to-action {
+#demorequest-wrapper .call-to-action {
     width: 278px;
     height: 58px;
     background-color: #ffca0d;
@@ -1028,7 +1028,7 @@ DEMOANFRAGE PAGE
     margin:  auto;
 }
 
-#demoanfrage-wrapper  .call-to-action:hover {
+#demorequest-wrapper  .call-to-action:hover {
     background-color: #F2BD00;
     border: solid 2px #F2BD00;
     cursor: pointer;
@@ -1046,7 +1046,7 @@ DEMOANFRAGE PAGE
 
 
 
-#demoanfrage-wrapper .graphic-holder {
+#demorequest-wrapper .graphic-holder {
     flex-basis: 40%;
 }
 
